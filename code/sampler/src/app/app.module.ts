@@ -4,11 +4,15 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PIXIComponent } from './pixi/pixi.component';
+import { SampleListComponent } from './samples/sample-list/sample-list.component';
+import { ShapesSampleComponent } from './samples/shapes-sample/shapes-sample.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PIXIComponent
+    PIXIComponent,
+    SampleListComponent,
+    ShapesSampleComponent
   ],
   imports: [
     BrowserModule,
